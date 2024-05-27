@@ -1,0 +1,47 @@
+{
+  "_id": {
+    "$oid": "66283d42d0b03ce71257bf83"
+  },
+  "tagName": "0-AA-ABC-CDE",
+  "templateId": {
+    "$oid": "6628569ce599d20a5030fbf3"
+  },
+  "templateData": [
+    {
+      "value": "Option1",
+      "templateFieldId": {
+        "$oid": "6653def15a01fc41795e0e46"
+      },
+      "_id": {
+        "$oid": "6628573ee599d20a5030fc33"
+      }
+    },
+    {
+      "value": "OptionC",
+      "templateFieldId": {
+        "$oid": "6653def65b27605acbf9d6ce"
+      },
+      "_id": {
+        "$oid": "6628573ee599d20a5030fc34"
+      }
+    },
+    {
+      "value": "OptionZ",
+      "templateFieldId": {
+        "$oid": "6653defe604ef8ff772cfed3"
+      },
+      "_id": {
+        "$oid": "6628573ee599d20a5030fc35"
+      }
+    },
+    {
+      "value": "OptionO",
+      "templateFieldId": {
+        "$oid": "6628569be599d20a5030fbbe"
+      },
+      "_id": {
+        "$oid": "6628573ee599d20a5030fc36"
+      }
+    }
+  ]
+}
