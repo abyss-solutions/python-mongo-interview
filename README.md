@@ -1,41 +1,35 @@
-# python-mongo-interview
+## Project Setup
 
-# Setup
-
-# Collections
+### Collections
 
 components
 templates
 
-# How to Prep.
+### How to Prep.
 
-## - Start a local version of Mongo DB
+- Start a local version of Mongo DB
 
-## - Insert the components.json and template.json into the 2 collections
+- Insert the components.json and template.json into the 2 collections
 
-## - Install Pymongo and any tooling of your choice in a python environment
+- Install Pymongo and any tooling of your choice in a python environment
 
-#
+## What you need to achieve
 
-#
+### Task 1
 
-# What you need to achieve
+Generate a key for every item templates.fields that uses name and replace spaces with underscores
 
-# Task 1
-
-## Generate a key for every item templates.fields that uses name and replace spaces with underscores
-
-## Update all the fields in templates with their key in the mongo db
+Update all the fields in templates with their key in the mongo db
 
 #
 
-# Task 2
+### Task 2
 
-# For Every Item in components.templateData. Insert a new object on the _components_ collection called **templateFieldData** and consists of the key from template.fields matching the templateFieldId in templateData.
+For Every Item in components.templateData. Insert a new object on the _components_ collection called **templateFieldData** and consists of the key from template.fields matching the templateFieldId in templateData.
 
-# Example of final result
+#### _Example of final result_
 
-## templates
+### templates
 
 ```
 {
@@ -47,7 +41,7 @@ templates
 }
 ```
 
-## components
+### components
 
 ```
 {
